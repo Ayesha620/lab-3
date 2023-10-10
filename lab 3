@@ -1,0 +1,14 @@
+def word(secret_word):
+    while True:
+        # using while loop to kee the function going untill we guess the word correctly
+        guess = input("Enter your guess: ")
+
+        if guess == secret_word:
+            print("Congrats .You guessed the word correctly.")
+            break
+        else:
+            print("Incorrect guess. Try again.")
+
+secret_word = "python"
+word(secret_word)
+#calling the function for ot to actually perform
